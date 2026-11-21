@@ -1,0 +1,1461 @@
+{
+    "version": 4,
+    "groups": [
+        {
+            "name": "ISO 81346-12:2018 - domain / top-node identifiers",
+            "entries": [
+                {
+                    "code": "A",
+                    "description": "Activity space"
+                },
+                {
+                    "code": "B",
+                    "description": "Built space"
+                },
+                {
+                    "code": "C",
+                    "description": "Construction complex"
+                },
+                {
+                    "code": "D",
+                    "description": "Construction aid"
+                },
+                {
+                    "code": "E",
+                    "description": "Construction entity"
+                },
+                {
+                    "code": "G",
+                    "description": "Construction agent"
+                },
+                {
+                    "code": "L",
+                    "description": "Construction element"
+                },
+                {
+                    "code": "P",
+                    "description": "Construction product"
+                },
+                {
+                    "code": "R",
+                    "description": "Construction process"
+                },
+                {
+                    "code": "S",
+                    "description": "Storey"
+                },
+                {
+                    "code": "Z",
+                    "description": "Zone"
+                }
+            ]
+        },
+        {
+            "name": "IEC 81346-2:2019 - selected two-letter subclass examples (not a complete code table)",
+            "entries": [
+                {
+                    "code": "BG",
+                    "description": "Proximity switch / limit switch"
+                },
+                {
+                    "code": "BP",
+                    "description": "Pressure switch / vacuum switch"
+                },
+                {
+                    "code": "KF",
+                    "description": "Relay / time relay for electrical signals"
+                },
+                {
+                    "code": "KH",
+                    "description": "AND / OR signal logic for fluidic signals"
+                },
+                {
+                    "code": "MB",
+                    "description": "Solenoid valve coil / electromagnet / stepper motor"
+                },
+                {
+                    "code": "MM",
+                    "description": "Motor / cylinder for fluidic force"
+                },
+                {
+                    "code": "QA",
+                    "description": "Contactor / main switch"
+                },
+                {
+                    "code": "QM",
+                    "description": "Directional valve / shut-off valve / quick exhaust valve"
+                },
+                {
+                    "code": "RN",
+                    "description": "Throttle check valve / flow control valve"
+                },
+                {
+                    "code": "SG",
+                    "description": "Hand operation / lever"
+                },
+                {
+                    "code": "SH",
+                    "description": "Foot operation / pedal"
+                },
+                {
+                    "code": "SJ",
+                    "description": "Finger-operated valve / push-button / switch"
+                }
+            ]
+        },
+        {
+            "name": "IEC 81346-2:2019 - legacy class reference list (replaced by 2026 edition)",
+            "entries": [
+                {
+                    "code": "K",
+                    "description": "Signal processing / logic / control - project interpretation"
+                },
+                {
+                    "code": "Q",
+                    "description": "Switching electrical power - project interpretation"
+                },
+                {
+                    "code": "S",
+                    "description": "Manual operation / converting operation into a signal"
+                },
+                {
+                    "code": "B",
+                    "description": "Converting a non-electrical quantity into a signal"
+                },
+                {
+                    "code": "G",
+                    "description": "Generating energy or signals"
+                },
+                {
+                    "code": "X",
+                    "description": "Connections / terminals"
+                },
+                {
+                    "code": "W",
+                    "description": "Transporting energy or signals / cabling"
+                },
+                {
+                    "code": "T",
+                    "description": "Energy conversion without switching"
+                },
+                {
+                    "code": "M",
+                    "description": "Providing mechanical energy / drives"
+                }
+            ]
+        },
+        {
+            "name": "Technical installations - practical equipment suggestions",
+            "entries": [
+                {
+                    "code": "K",
+                    "description": "Controller / logic module / automation controller"
+                },
+                {
+                    "code": "KNX",
+                    "description": "KNX system / KNX installation (project grouping)"
+                },
+                {
+                    "code": "GW",
+                    "description": "Gateway / protocol converter (generic suggestion)"
+                },
+                {
+                    "code": "IPR",
+                    "description": "IP router / network router (generic suggestion)"
+                },
+                {
+                    "code": "TS",
+                    "description": "Touchscreen / room operating panel (project suggestion)"
+                },
+                {
+                    "code": "PB",
+                    "description": "Push button / wall control (project suggestion)"
+                },
+                {
+                    "code": "ACT",
+                    "description": "Actuator (project grouping; choose class by function)"
+                },
+                {
+                    "code": "SEN",
+                    "description": "Sensor (project grouping; choose class by function)"
+                },
+                {
+                    "code": "PS",
+                    "description": "Power supply (project grouping; choose class by function)"
+                },
+                {
+                    "code": "DALI",
+                    "description": "DALI interface / gateway (project grouping)"
+                },
+                {
+                    "code": "IO",
+                    "description": "Input/output module (project grouping)"
+                },
+                {
+                    "code": "VLV",
+                    "description": "Valve actuator / motorized valve (project grouping)"
+                },
+                {
+                    "code": "MOT",
+                    "description": "Motor / drive (project grouping)"
+                },
+                {
+                    "code": "TERM",
+                    "description": "Terminal / connection point (project grouping)"
+                },
+                {
+                    "code": "CAB",
+                    "description": "Cabinet / enclosure (project grouping)"
+                },
+                {
+                    "code": "CBL",
+                    "description": "Cable / wiring (project grouping)"
+                }
+            ]
+        },
+        {
+            "name": "User's earlier folder-prefix mapping",
+            "entries": [
+                {
+                    "code": "KF",
+                    "description": "actoren - user's existing folder prefix"
+                },
+                {
+                    "code": "S",
+                    "description": "bediening - user's existing folder prefix"
+                },
+                {
+                    "code": "EB",
+                    "description": "borden - user's existing folder prefix"
+                },
+                {
+                    "code": "KM",
+                    "description": "gateway - user's existing folder prefix"
+                },
+                {
+                    "code": "KED",
+                    "description": "ip_routers - user's existing folder prefix"
+                },
+                {
+                    "code": "B",
+                    "description": "sensoren - user's existing folder prefix"
+                },
+                {
+                    "code": "G",
+                    "description": "voedingen - user's existing folder prefix"
+                }
+            ]
+        },
+        {
+            "name": "Belgian electrical installation coding - project conventions (not a standalone IEC code table)",
+            "entries": [
+                {
+                    "code": "K",
+                    "description": "Signal processing / logic / automation controller; KNX logic module, controller, line coupler or interface (functional class reference)"
+                },
+                {
+                    "code": "Q",
+                    "description": "Switching electrical power; e.g. power switching actuator, relay or circuit switching function (functional class reference)"
+                },
+                {
+                    "code": "S",
+                    "description": "Manual operation / human interaction; e.g. KNX push button, touch sensor or room control (functional class reference)"
+                },
+                {
+                    "code": "B",
+                    "description": "Sensing a physical quantity; e.g. presence, light or temperature sensor (functional class reference)"
+                },
+                {
+                    "code": "G",
+                    "description": "Generating / supplying energy; e.g. KNX bus power supply (functional class reference)"
+                },
+                {
+                    "code": "X",
+                    "description": "Electrical connection / terminal; e.g. bus terminal, connector or terminal strip (functional class reference)"
+                },
+                {
+                    "code": "W",
+                    "description": "Transporting energy or signals; e.g. KNX bus cable or other wiring (functional class reference)"
+                },
+                {
+                    "code": "T",
+                    "description": "Energy conversion without switching; e.g. dimming / DALI control equipment, subject to actual function"
+                },
+                {
+                    "code": "M",
+                    "description": "Providing mechanical energy; e.g. valve actuator, blind or motor drive"
+                },
+                {
+                    "code": "KF",
+                    "description": "Existing project folder prefix for actoren; project-specific, not a normative IEC designation"
+                },
+                {
+                    "code": "EB",
+                    "description": "Existing project folder prefix for borden / electrical cabinets; project-specific"
+                },
+                {
+                    "code": "KM",
+                    "description": "Existing project folder prefix for gateway; project-specific"
+                },
+                {
+                    "code": "KED",
+                    "description": "Existing project folder prefix for IP routers; project-specific"
+                },
+                {
+                    "code": "KNX",
+                    "description": "KNX installation / system grouping; project tag, not a normative reference designation"
+                },
+                {
+                    "code": "DALI",
+                    "description": "DALI system / interface grouping; project tag, not a normative reference designation"
+                },
+                {
+                    "code": "ACT",
+                    "description": "Generic actuator grouping; select the functional class by the actual device function"
+                },
+                {
+                    "code": "SEN",
+                    "description": "Generic sensor grouping; select the functional class by the actual device function"
+                },
+                {
+                    "code": "PS",
+                    "description": "Generic power supply grouping; project tag"
+                },
+                {
+                    "code": "GW",
+                    "description": "Generic gateway / protocol converter grouping; project tag"
+                },
+                {
+                    "code": "IPR",
+                    "description": "Generic IP router grouping; project tag"
+                },
+                {
+                    "code": "TS",
+                    "description": "Touchscreen / room operating panel; project tag"
+                },
+                {
+                    "code": "PB",
+                    "description": "Push button / wall control; project tag"
+                },
+                {
+                    "code": "IO",
+                    "description": "Input / output module grouping; project tag"
+                },
+                {
+                    "code": "TERM",
+                    "description": "Terminal / connection point grouping; project tag"
+                },
+                {
+                    "code": "CAB",
+                    "description": "Cabinet / enclosure grouping; project tag"
+                },
+                {
+                    "code": "CBL",
+                    "description": "Cable / wiring grouping; project tag"
+                }
+            ]
+        },
+        {
+            "name": "user",
+            "entries": [
+                {
+                    "code": "DCAB",
+                    "description": "datarack"
+                },
+                {
+                    "code": "DOUT",
+                    "description": "data outlet"
+                },
+                {
+                    "code": "DP",
+                    "description": "data rack panel"
+                }
+            ]
+        },
+        {
+            "name": "Project tags - intrusion and hold-up alarm",
+            "entries": [
+                {
+                    "code": "INTR",
+                    "description": "Intrusion detection system; project tag, not an EN 50131 prefix"
+                },
+                {
+                    "code": "HOLD",
+                    "description": "Hold-up / panic alarm system; project tag"
+                },
+                {
+                    "code": "ALM",
+                    "description": "Alarm control / signalling system; project tag"
+                },
+                {
+                    "code": "DET",
+                    "description": "Intrusion detector group; project tag"
+                }
+            ]
+        },
+        {
+            "name": "Project tags - fire detection and alarm",
+            "entries": [
+                {
+                    "code": "FIRE",
+                    "description": "Fire detection and alarm system; project tag, not an EN 54 code"
+                },
+                {
+                    "code": "FACP",
+                    "description": "Fire alarm control and indicating equipment; project tag"
+                },
+                {
+                    "code": "FD",
+                    "description": "Fire detector group; project tag"
+                },
+                {
+                    "code": "SND",
+                    "description": "Fire alarm sounder / beacon group; project tag"
+                }
+            ]
+        },
+        {
+            "name": "Project tags - CCTV / video surveillance",
+            "entries": [
+                {
+                    "code": "CCTV",
+                    "description": "Video surveillance system; project tag, not an IEC 62676 code"
+                },
+                {
+                    "code": "CAM",
+                    "description": "Camera group; project tag"
+                },
+                {
+                    "code": "VMS",
+                    "description": "Video management system; project tag"
+                },
+                {
+                    "code": "NVR",
+                    "description": "Network video recorder; project tag"
+                }
+            ]
+        },
+        {
+            "name": "Project tags - electronic access control",
+            "entries": [
+                {
+                    "code": "ACS",
+                    "description": "Access control system; project tag, not an EN 60839 code"
+                },
+                {
+                    "code": "ACU",
+                    "description": "Access control unit; project tag"
+                },
+                {
+                    "code": "CRD",
+                    "description": "Card / credential reader; project tag"
+                },
+                {
+                    "code": "LCK",
+                    "description": "Electric lock / door locking; project tag"
+                }
+            ]
+        },
+        {
+            "name": "Project tags - AREI / electrical installation",
+            "entries": [
+                {
+                    "code": "EL",
+                    "description": "Electrical installation grouping; project tag only"
+                },
+                {
+                    "code": "DB",
+                    "description": "Distribution board; project tag"
+                },
+                {
+                    "code": "CIR",
+                    "description": "Electrical circuit; project tag"
+                },
+                {
+                    "code": "PE",
+                    "description": "Protective earth conductor designation; use applicable wiring rules"
+                }
+            ]
+        },
+        {
+            "name": "Project tags - electrical and electronic diagrams",
+            "entries": [
+                {
+                    "code": "ED",
+                    "description": "Electrical documentation / diagram grouping; project tag"
+                },
+                {
+                    "code": "ES",
+                    "description": "Electronic schematic grouping; project tag"
+                },
+                {
+                    "code": "WD",
+                    "description": "Wiring diagram grouping; project tag"
+                },
+                {
+                    "code": "TERM",
+                    "description": "Terminal / connection grouping; project tag"
+                }
+            ]
+        },
+        {
+            "name": "Project tags - machinery and machine safety",
+            "entries": [
+                {
+                    "code": "MCH",
+                    "description": "Machine / machinery grouping; project tag, not ISO 12100 code"
+                },
+                {
+                    "code": "SAFE",
+                    "description": "Safety-related control function grouping; project tag"
+                },
+                {
+                    "code": "ESTOP",
+                    "description": "Emergency stop function grouping; project tag"
+                },
+                {
+                    "code": "GUARD",
+                    "description": "Guard / interlocking function grouping; project tag"
+                }
+            ]
+        },
+        {
+            "name": "Project tags - PLC and industrial automation",
+            "entries": [
+                {
+                    "code": "PLC",
+                    "description": "Programmable logic controller; project tag, not IEC 61131 code"
+                },
+                {
+                    "code": "RIO",
+                    "description": "Remote input/output station; project tag"
+                },
+                {
+                    "code": "HMI",
+                    "description": "Human-machine interface; project tag"
+                },
+                {
+                    "code": "DRIVE",
+                    "description": "Variable speed drive / motor control; project tag"
+                }
+            ]
+        },
+        {
+            "name": "Project tags - MIVA / social and assistance alarm",
+            "entries": [
+                {
+                    "code": "MIVA",
+                    "description": "Accessible toilet / disabled-person assistance alarm; project tag"
+                },
+                {
+                    "code": "CALL",
+                    "description": "Call point / assistance call; project tag"
+                },
+                {
+                    "code": "RESET",
+                    "description": "Assistance alarm reset unit; project tag"
+                },
+                {
+                    "code": "NURSE",
+                    "description": "Nurse-call / care-call system; project tag"
+                }
+            ]
+        },
+        {
+            "name": "Project tags - aggression / duress / personal safety alarm",
+            "entries": [
+                {
+                    "code": "DURESS",
+                    "description": "Duress / aggression alarm system; project tag"
+                },
+                {
+                    "code": "PANIC",
+                    "description": "Personal panic alarm; project tag"
+                },
+                {
+                    "code": "STAFF",
+                    "description": "Staff safety / lone-worker alarm; project tag"
+                },
+                {
+                    "code": "LOC",
+                    "description": "Personnel location / alert point; project tag"
+                }
+            ]
+        },
+        {
+            "name": "Building automation / domotics - protocol tags",
+            "entries": [
+                {
+                    "code": "BACS",
+                    "description": "Building Automation and Control Systems"
+                },
+                {
+                    "code": "BMS",
+                    "description": "Building Management System"
+                },
+                {
+                    "code": "DOM",
+                    "description": "Domotics / home automation"
+                },
+                {
+                    "code": "HBES",
+                    "description": "Home and Building Electronic Systems"
+                },
+                {
+                    "code": "HACS",
+                    "description": "Home Automation and Control System"
+                },
+                {
+                    "code": "HMI",
+                    "description": "Human-machine interface"
+                },
+                {
+                    "code": "SCADA",
+                    "description": "Supervisory Control and Data Acquisition"
+                },
+                {
+                    "code": "EMS",
+                    "description": "Energy Management System"
+                },
+                {
+                    "code": "FMS",
+                    "description": "Facility Management System"
+                }
+            ]
+        },
+        {
+            "name": "KNX - protocol and media tags",
+            "entries": [
+                {
+                    "code": "KNX",
+                    "description": "KNX system / project tag; protocol standardised by EN 50090 and ISO/IEC 14543-3"
+                },
+                {
+                    "code": "KNXTP",
+                    "description": "KNX Twisted Pair"
+                },
+                {
+                    "code": "KNXIP",
+                    "description": "KNXnet/IP"
+                },
+                {
+                    "code": "KNXRF",
+                    "description": "KNX Radio Frequency"
+                },
+                {
+                    "code": "KNXPL",
+                    "description": "KNX Powerline"
+                },
+                {
+                    "code": "KNXSEC",
+                    "description": "KNX Secure"
+                },
+                {
+                    "code": "EIB",
+                    "description": "Legacy European Installation Bus terminology"
+                },
+                {
+                    "code": "ETS",
+                    "description": "Engineering Tool Software; engineering/project tag"
+                },
+                {
+                    "code": "KNXGW",
+                    "description": "KNX gateway / interface"
+                }
+            ]
+        },
+        {
+            "name": "Lighting control protocols - project tags",
+            "entries": [
+                {
+                    "code": "DALI",
+                    "description": "Digital Addressable Lighting Interface; IEC 62386"
+                },
+                {
+                    "code": "DAL2",
+                    "description": "DALI-2 certification / project tag"
+                },
+                {
+                    "code": "DT8",
+                    "description": "DALI device type 8 colour control"
+                },
+                {
+                    "code": "DMX",
+                    "description": "DMX512 lighting control; ANSI E1.11"
+                },
+                {
+                    "code": "CASAMBI",
+                    "description": "Casambi wireless lighting control; proprietary ecosystem"
+                },
+                {
+                    "code": "LUX",
+                    "description": "Lighting control / illuminance"
+                }
+            ]
+        },
+        {
+            "name": "Building and industrial communication protocols - project tags",
+            "entries": [
+                {
+                    "code": "BACNET",
+                    "description": "BACnet; EN ISO 16484-5 / ISO 16484-5"
+                },
+                {
+                    "code": "BACIP",
+                    "description": "BACnet/IP"
+                },
+                {
+                    "code": "BACMS",
+                    "description": "BACnet MS/TP"
+                },
+                {
+                    "code": "MODBUS",
+                    "description": "Modbus protocol family"
+                },
+                {
+                    "code": "MBRTU",
+                    "description": "Modbus RTU"
+                },
+                {
+                    "code": "MBTCP",
+                    "description": "Modbus TCP"
+                },
+                {
+                    "code": "LON",
+                    "description": "LonWorks / LonTalk; EN 14908 / ISO 14908"
+                },
+                {
+                    "code": "M_BUS",
+                    "description": "M-Bus metering; EN 13757"
+                },
+                {
+                    "code": "OPCUA",
+                    "description": "OPC Unified Architecture; IEC 62541"
+                },
+                {
+                    "code": "PROFINET",
+                    "description": "PROFINET; IEC 61158 / IEC 61784"
+                },
+                {
+                    "code": "PROFIBUS",
+                    "description": "PROFIBUS; IEC 61158 / IEC 61784"
+                },
+                {
+                    "code": "ETHIP",
+                    "description": "EtherNet/IP; IEC 61784-2"
+                },
+                {
+                    "code": "AS_I",
+                    "description": "AS-Interface"
+                },
+                {
+                    "code": "CANOPEN",
+                    "description": "CANopen; EN 50325 series"
+                },
+                {
+                    "code": "MQTT",
+                    "description": "MQTT messaging protocol; OASIS standard"
+                },
+                {
+                    "code": "AMQP",
+                    "description": "Advanced Message Queuing Protocol"
+                },
+                {
+                    "code": "HTTP",
+                    "description": "HTTP / REST interface"
+                },
+                {
+                    "code": "WEBSOCK",
+                    "description": "WebSocket interface"
+                },
+                {
+                    "code": "SNMP",
+                    "description": "Simple Network Management Protocol"
+                },
+                {
+                    "code": "OPC",
+                    "description": "OPC interface; specify classic OPC or OPC UA"
+                }
+            ]
+        },
+        {
+            "name": "Wireless / IoT / smart-home protocols - project tags",
+            "entries": [
+                {
+                    "code": "ZIGBEE",
+                    "description": "Zigbee wireless mesh; IEEE 802.15.4 based"
+                },
+                {
+                    "code": "THREAD",
+                    "description": "Thread IPv6 mesh networking"
+                },
+                {
+                    "code": "MATTER",
+                    "description": "Matter smart-home application protocol"
+                },
+                {
+                    "code": "Z_WAVE",
+                    "description": "Z-Wave wireless home automation"
+                },
+                {
+                    "code": "ENOCEAN",
+                    "description": "EnOcean energy-harvesting wireless protocol; ISO/IEC 14543-3-10"
+                },
+                {
+                    "code": "WIFI",
+                    "description": "Wi-Fi / IEEE 802.11"
+                },
+                {
+                    "code": "BLUETOOTH",
+                    "description": "Bluetooth / Bluetooth LE"
+                },
+                {
+                    "code": "LORA",
+                    "description": "LoRa / LoRaWAN"
+                },
+                {
+                    "code": "LORAWAN",
+                    "description": "LoRaWAN network protocol"
+                },
+                {
+                    "code": "WIRELESS",
+                    "description": "Generic wireless link; specify protocol"
+                }
+            ]
+        },
+        {
+            "name": "Metering / energy / utility protocols - project tags",
+            "entries": [
+                {
+                    "code": "DLMS",
+                    "description": "DLMS/COSEM smart metering; IEC 62056"
+                },
+                {
+                    "code": "METER",
+                    "description": "Generic meter interface"
+                },
+                {
+                    "code": "SML",
+                    "description": "Smart Message Language metering protocol"
+                },
+                {
+                    "code": "IEC104",
+                    "description": "IEC 60870-5-104 telecontrol"
+                },
+                {
+                    "code": "IEC101",
+                    "description": "IEC 60870-5-101 telecontrol"
+                },
+                {
+                    "code": "DNP3",
+                    "description": "DNP3 / IEEE 1815"
+                },
+                {
+                    "code": "CIM",
+                    "description": "Common Information Model; IEC 61970 / IEC 61968"
+                }
+            ]
+        },
+        {
+            "name": "Serial / fieldbus / interface tags - project tags",
+            "entries": [
+                {
+                    "code": "RS232",
+                    "description": "Serial physical interface RS-232"
+                },
+                {
+                    "code": "RS485",
+                    "description": "Serial physical interface RS-485"
+                },
+                {
+                    "code": "USB",
+                    "description": "USB interface"
+                },
+                {
+                    "code": "I2C",
+                    "description": "I²C serial bus"
+                },
+                {
+                    "code": "SPI",
+                    "description": "Serial Peripheral Interface"
+                },
+                {
+                    "code": "UART",
+                    "description": "Universal Asynchronous Receiver/Transmitter"
+                },
+                {
+                    "code": "GPIO",
+                    "description": "General-purpose input/output"
+                },
+                {
+                    "code": "IO_LINK",
+                    "description": "IO-Link; IEC 61131-9"
+                },
+                {
+                    "code": "HART",
+                    "description": "HART communication protocol; IEC 61158-2 related physical layer"
+                },
+                {
+                    "code": "FOUNDATION",
+                    "description": "FOUNDATION Fieldbus; IEC 61158 / IEC 61784"
+                }
+            ]
+        }
+    ],
+    "catalogue_note": "Prefix groups are selectable project codes. The standards section is reference metadata only; standard numbers are not equipment prefixes. Normative class-code selections must be checked against the current edition of the applicable standard. Two-letter IEC 81346-2:2019 entries in this catalogue are selected examples, not a complete normative table. Practical project tags remain explicitly separated from IEC class codes. Norm selector profiles distinguish normative standards from local project-tag suggestions. A standard reference does not itself imply a prefix code. Application tags (CCTV, FIRE, MIVA, PLC, DURESS, etc.) are explicitly non-normative project conventions.\n\nProtocol catalogue addition (2026-11-21): Protocol names such as KNX, BACnet, DALI, Modbus, MQTT and Zigbee are stored as project/system labels, not as IEC 81346-2 object-class prefixes. Normative references identify the relevant protocol standards; verify current national adoption and edition before contractual use.",
+    "standards_last_checked": "2026-11-21",
+    "standards": [
+        {
+            "standard": "DIN 40719",
+            "title": "Circuit documentation, diagrams and designation of electrical equipment",
+            "scope": "Historical German standards series covering circuit documentation and identification/designation of electrical equipment. Parts have different successors.",
+            "status": "Withdrawn / superseded",
+            "successors": [
+                "DIN EN 61082-1 (preparation of electrotechnical documents; successor for general document preparation)",
+                "DIN EN IEC 81346-1:2022 (structuring principles and reference designations)",
+                "DIN EN IEC 81346-2:2020 national adoption of IEC 81346-2:2019; international IEC 81346-2:2026 is the newer edition"
+            ],
+            "notes": "DIN 40719-2:1978-06, designation of electrical equipment, is withdrawn. DIN Media lists DIN 6779, DIN EN 61346 and DIN EN 81346 as successor stages. Do not treat DIN 40719 as a current prefix-code table.",
+            "sources": [
+                "https://www.dinmedia.de/en/standard/din-40719/7377898",
+                "https://www.dinmedia.de/en/standard/din-40719-2/673609",
+                "https://www.dinmedia.de/en/standard/din-en-81346-2/124812076"
+            ]
+        },
+        {
+            "standard": "DIN 40900",
+            "title": "Graphical symbols for diagrams",
+            "scope": "Historical German series of graphical symbols for electrical diagrams and installation plans; it concerns symbols, not reference designation prefix codes.",
+            "status": "Withdrawn / superseded",
+            "successors": [
+                "DIN EN 60617 series; current international symbol database: IEC 60617"
+            ],
+            "notes": "Examples: DIN 40900-3 was replaced by DIN EN 60617-3; DIN 40900-4 by DIN EN 60617-4; DIN 40900-11 by DIN EN 60617-11; DIN 40900-12 by DIN EN 60617-12. Individual part status and national adoption should be checked where relevant.",
+            "sources": [
+                "https://www.dinmedia.de/en/standard/din-40900-3/3094007",
+                "https://www.dinmedia.de/en/standard/din-40900-4/3094044",
+                "https://www.dinmedia.de/en/standard/din-40900-11/3094287",
+                "https://www.dinmedia.de/en/standard/din-40900-12/2802551"
+            ]
+        },
+        {
+            "standard": "IEC 617 (legacy series)",
+            "title": "Graphical symbols for diagrams",
+            "scope": "Earlier IEC publication series for electrotechnical diagram symbols.",
+            "status": "Legacy series; superseded and incorporated into IEC 60617",
+            "successors": [
+                "IEC 60617 database - Graphical symbols for diagrams"
+            ],
+            "notes": "IEC 60617-11:1996 explicitly superseded IEC 617-11:1983. IEC 60617 is the maintained IEC database for diagram symbols; it is not an equipment designation or prefix-code standard.",
+            "sources": [
+                "https://webstore.iec.ch/en/publication/16980",
+                "https://tc3.iec.ch/standard-as-database/"
+            ]
+        },
+        {
+            "standard": "IEC 60617:2026 DB",
+            "title": "Graphical symbols for diagrams",
+            "scope": "Current IEC database of standardized graphical symbols for electrotechnical diagrams.",
+            "status": "Published 2026-03-04",
+            "successors": [],
+            "notes": "IEC identifies this database as the official source for diagram symbols. It is separate from the IEC 81346 reference designation and object-class coding system.",
+            "sources": [
+                "https://webstore.iec.ch/en/publication/2723",
+                "https://tc3.iec.ch/standard-as-database/"
+            ]
+        },
+        {
+            "standard": "IEC 81346-1:2022",
+            "title": "Structuring principles and reference designations - Part 1: Basic rules",
+            "scope": "General rules for structuring systems and formulating unambiguous reference designations.",
+            "status": "Published; Edition 2 (2022)",
+            "successors": [],
+            "notes": "Current general framework identified in the ISO/IEC catalogue. Use together with the relevant sector and object-class parts.",
+            "sources": [
+                "https://www.iso.org/standard/82229.html",
+                "https://webstore.iec.ch/en/publication/64021"
+            ]
+        },
+        {
+            "standard": "IEC 81346-2:2026",
+            "title": "Structuring principles and reference designations - Part 2: Classification of objects and codes for classes",
+            "scope": "Object-classification schemes and associated letter codes used in reference designations.",
+            "status": "Edition 3 in publication process; stage 60.00 on 2026-10-16; next publication stage scheduled 2026-11-27",
+            "successors": [
+                "Replaces IEC 81346-2:2019"
+            ],
+            "notes": "The 2026 revision adds and modifies classes, changes class names and marks obsolete classes. The existing selectable IEC 81346-2:2019 list in this JSON is therefore explicitly marked legacy. Do not assume its codes/descriptions are a complete or current 2026 table; update the actual class entries only against an authorized copy of IEC 81346-2:2026.",
+            "sources": [
+                "https://iss.rs/en/project/show/iec%3Aproj%3A110773",
+                "https://webstore.iec.ch/en/publication/29181"
+            ]
+        },
+        {
+            "standard": "ISO 81346-12:2018",
+            "title": "Structuring principles and reference designations - Part 12: Construction works and building services",
+            "scope": "Structuring and reference designation rules and object classes/letter codes for construction works and building services.",
+            "status": "Published; confirmed in 2024 and remains current",
+            "successors": [],
+            "notes": "This part is sector-specific for construction works and building services. It is not interchangeable with IEC 81346-2.",
+            "sources": [
+                "https://www.iso.org/standard/63886.html"
+            ]
+        },
+        {
+            "standard": "DIN EN IEC 81346-2:2020-10",
+            "title": "German adoption of IEC 81346-2:2019",
+            "scope": "National German adoption of the 2019 object-classification edition.",
+            "status": "Edition associated with IEC 81346-2:2019; check DIN catalogue for latest national adoption",
+            "successors": [
+                "IEC 81346-2:2026 (international Edition 3; national adoption may follow separately)"
+            ],
+            "notes": "Do not infer that the 2026 IEC edition is already adopted as a DIN or NBN national publication.",
+            "sources": [
+                "https://www.dinmedia.de/en/standard/din-en-iec-81346-2/320735342",
+                "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=283838&p_lang=en"
+            ]
+        },
+        {
+            "standard": "AREI / RGIE - Belgium (2026 edition)",
+            "title": "Algemeen Reglement op de Elektrische Installaties, Books 1-3",
+            "scope": "Belgian statutory safety rules for low/very-low voltage, high-voltage, and transmission/distribution installations.",
+            "status": "Applicable from 1 April 2026; FOD Economy publication updated 30 October 2026",
+            "successors": [],
+            "notes": "Regulatory installation requirements, not a reference-designation prefix code list. Check the applicable book and amendments for each installation.",
+            "sources": [
+                "https://economie.fgov.be/nl/publicaties/algemeen-reglement-op-de"
+            ]
+        },
+        {
+            "standard": "NBN EN 50131 series",
+            "title": "Alarm systems - Intrusion and hold-up systems",
+            "scope": "System requirements and component requirements for intrusion and hold-up alarm systems.",
+            "status": "Belgian adoption; verify current part, amendments and INCERT scheme for each project",
+            "successors": [],
+            "notes": "Includes system, detector, control/indicating equipment, warning device, interconnection, power supply and transmission parts. It does not define a universal folder-prefix taxonomy.",
+            "sources": [
+                "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=280964&p40_language_code=en",
+                "https://www.anpi.be/nl/elektronische-beveiliging"
+            ]
+        },
+        {
+            "standard": "NBN EN 54 series",
+            "title": "Fire detection and fire alarm systems",
+            "scope": "European component and system standards for fire detection and alarm systems.",
+            "status": "Active series; verify the status of each individual part",
+            "successors": [],
+            "notes": "Belgian design/installation rules also include the NBN S 21 national series. EN 54 numbers identify standards/parts, not equipment prefixes.",
+            "sources": [
+                "https://www.nbn.be/en/themes/fire-safety",
+                "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=222276&p_lang=en"
+            ]
+        },
+        {
+            "standard": "NBN S 21-100-1:2025",
+            "title": "Branddetectie- en brandmeldsystemen - risk analysis, design, installation, commissioning, inspection and maintenance",
+            "scope": "Belgian national rules for fire detection and alarm systems in and around buildings.",
+            "status": "Published 2025; replaces NBN S 21-100-1:2021",
+            "successors": [],
+            "notes": "Confirm current linked parts and amendments in the NBN catalogue.",
+            "sources": [
+                "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=353358&p_lang=nl"
+            ]
+        },
+        {
+            "standard": "NBN S 21-112-1:2025",
+            "title": "Branddetectie- en brandmeldsystemen - Alarmsystemen - Deel 1: selectiecriteria",
+            "scope": "Belgian selection criteria for fire alarm systems.",
+            "status": "Active; published 14 July 2025",
+            "successors": [
+                "Replaces NBN S 21-111-1:2017"
+            ],
+            "notes": "National application rules; not a prefix code table.",
+            "sources": [
+                "https://app.nbn.be/data/r/platform/frontend/detail?lang=nl&p40_id=3345794&p40_language_code=nl"
+            ]
+        },
+        {
+            "standard": "NBN EN IEC 62676 series",
+            "title": "Video surveillance systems for use in security applications",
+            "scope": "Video surveillance system requirements, transmission, application guidelines, camera performance and analytics.",
+            "status": "Active parts include NBN EN IEC 62676-4:2025 and NBN EN IEC 62676-6:2026",
+            "successors": [
+                "NBN EN IEC 62676-4:2025 replaces NBN EN 62676-4:2015"
+            ],
+            "notes": "CCTV is commonly called VSS in the standards. No universal equipment prefix codes are prescribed.",
+            "sources": [
+                "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=3456245&p_lang=en",
+                "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=3516426&p_lang=nl"
+            ]
+        },
+        {
+            "standard": "NBN EN 60839-11 series",
+            "title": "Alarm and electronic security systems - Electronic access control systems",
+            "scope": "Physical access control system and component requirements, protocols and interfaces.",
+            "status": "NBN EN 60839-11-1:2013 active; check later parts and amendments",
+            "successors": [
+                "NBN EN 50133 series has been superseded by EN 60839-11 series"
+            ],
+            "notes": "OSDP is addressed by IEC 60839-11-5; system standards do not define a general prefix taxonomy.",
+            "sources": [
+                "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=312556&p40_lang=en",
+                "https://www.ceb-bec.be/nl/technisch-comit%C3%A9/alarm-systems?lang=nl"
+            ]
+        },
+        {
+            "standard": "NBN EN 61082-1:2015",
+            "title": "Preparation of documents used in electrotechnology - Part 1: Rules",
+            "scope": "Presentation of information and rules for electrotechnical diagrams, drawings and tables.",
+            "status": "Active Belgian adoption",
+            "successors": [
+                "Replaces NBN EN 61082-1:2006"
+            ],
+            "notes": "Document preparation rules; use IEC 60617 for standardized graphical symbols and IEC/ISO 81346 for reference designations.",
+            "sources": [
+                "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=289883&p_lang=nl"
+            ]
+        },
+        {
+            "standard": "IEC 60617 database",
+            "title": "Graphical symbols for diagrams",
+            "scope": "Standardized graphical symbols for electrotechnical diagrams.",
+            "status": "Current IEC database; consult database for individual symbol status",
+            "successors": [
+                "Supersedes legacy IEC 617 symbol series"
+            ],
+            "notes": "Symbols are not equipment prefix codes.",
+            "sources": [
+                "https://webstore.iec.ch/en/publication/2723",
+                "https://tc3.iec.ch/standard-as-database/"
+            ]
+        },
+        {
+            "standard": "IEC 60204-1:2016 + AMD1:2021",
+            "title": "Safety of machinery - Electrical equipment of machines - Part 1: General requirements",
+            "scope": "Electrical, electronic and programmable electronic equipment of machines.",
+            "status": "Published edition with amendment; verify latest national adoption",
+            "successors": [],
+            "notes": "Machine electrical safety requirements, not a complete reference designation code list.",
+            "sources": [
+                "https://webstore.iec.ch/en/publication/26037"
+            ]
+        },
+        {
+            "standard": "ISO 12100:2010",
+            "title": "Safety of machinery - General principles for design - Risk assessment and risk reduction",
+            "scope": "Machine risk assessment and risk reduction methodology.",
+            "status": "Published; check ISO catalogue for revision projects",
+            "successors": [],
+            "notes": "Safety methodology; does not define equipment prefixes.",
+            "sources": [
+                "https://www.iso.org/committee/54604/x/catalogue/"
+            ]
+        },
+        {
+            "standard": "ISO 13849-1:2023",
+            "title": "Safety of machinery - Safety-related parts of control systems - Part 1: General principles for design",
+            "scope": "Design and performance of safety-related parts of control systems.",
+            "status": "Published 2023 edition",
+            "successors": [],
+            "notes": "Use with relevant validation requirements and sector-specific legislation/standards. Not a prefix code list.",
+            "sources": [
+                "https://www.iso.org/committee/54604/x/catalogue/"
+            ]
+        },
+        {
+            "standard": "IEC 61131 series",
+            "title": "Programmable controllers",
+            "scope": "PLC programming languages, equipment requirements, communications and functional aspects.",
+            "status": "IEC 61131-2:2017 published; check each part for current status",
+            "successors": [],
+            "notes": "PLC tags such as PLC, DI, DO, AI and AO are project/engineering conventions unless specified by a particular system.",
+            "sources": [
+                "https://webstore.iec.ch/en/publication/31007"
+            ]
+        },
+        {
+            "standard": "EN 50134 series",
+            "title": "Alarm systems - Social alarm systems",
+            "scope": "Social alarm system requirements, triggering devices, communications and application guidance.",
+            "status": "European series; confirm Belgian NBN adoption and part status per project",
+            "successors": [],
+            "notes": "Potential reference for MIVA/toilet assistance and care-call systems where the function is social alarm. It is not automatically the governing standard for every disabled-person alarm.",
+            "sources": [
+                "https://www.kiwa.com/globalassets/netherlands/kiwa-ncp/pdf/wdtm-ketenkeurmerk-personenalarmering-v4.0.pdf"
+            ]
+        }
+    ],
+    "norm_profiles": [
+        {
+            "id": "iec81346",
+            "name": "IEC 81346-2 object classes",
+            "groups": [
+                "IEC 81346-2:2019 - selected two-letter subclass examples (not a complete code table)",
+                "IEC 81346-2:2019 - legacy class reference list (replaced by 2026 edition)"
+            ],
+            "standards": [
+                "IEC 81346-2:2019",
+                "IEC 81346-2:2026"
+            ],
+            "note": "Normative reference designation class codes; 2019 entries are legacy until the 2026 edition is published and verified."
+        },
+        {
+            "id": "iso81346bld",
+            "name": "ISO 81346-12 building services",
+            "groups": [
+                "ISO 81346-12:2018 - domain / top-node identifiers"
+            ],
+            "standards": [
+                "ISO 81346-12:2018"
+            ],
+            "note": "Building and building-services structuring. Codes are domain/top-node identifiers, not arbitrary device tags."
+        },
+        {
+            "id": "arei",
+            "name": "Belgium - AREI / RGIE",
+            "groups": [
+                "Belgian electrical installation coding - project conventions (not a standalone IEC code table)",
+                "User's earlier folder-prefix mapping"
+            ],
+            "standards": [
+                "AREI / RGIE - Belgium (2026 edition)"
+            ],
+            "note": "AREI is statutory installation regulation; it does not prescribe a universal prefix catalogue. Listed prefixes are project conventions."
+        },
+        {
+            "id": "intrusion",
+            "name": "Intrusion / hold-up security",
+            "groups": [
+                "Project tags - intrusion and hold-up alarm"
+            ],
+            "standards": [
+                "NBN EN 50131 series"
+            ],
+            "note": "Project tags only. EN 50131 defines alarm system/component requirements, not a universal folder-prefix scheme."
+        },
+        {
+            "id": "fire",
+            "name": "Fire detection / fire alarm",
+            "groups": [
+                "Project tags - fire detection and alarm"
+            ],
+            "standards": [
+                "NBN EN 54 series",
+                "NBN S 21-100-1:2025",
+                "NBN S 21-112-1:2025"
+            ],
+            "note": "Project tags only. EN 54 and Belgian NBN S 21 standards define system/component requirements."
+        },
+        {
+            "id": "cctv",
+            "name": "CCTV / video surveillance",
+            "groups": [
+                "Project tags - CCTV / video surveillance"
+            ],
+            "standards": [
+                "NBN EN IEC 62676 series"
+            ],
+            "note": "Project tags only; CCTV is referred to as video surveillance system (VSS) in the standards."
+        },
+        {
+            "id": "access",
+            "name": "Access control",
+            "groups": [
+                "Project tags - electronic access control"
+            ],
+            "standards": [
+                "NBN EN 60839-11 series"
+            ],
+            "note": "Project tags only. Includes electronic physical access control; OSDP is a communication protocol profile."
+        },
+        {
+            "id": "electrical_diagrams",
+            "name": "Electrical diagrams / drawings",
+            "groups": [
+                "Project tags - electrical and electronic diagrams"
+            ],
+            "standards": [
+                "NBN EN 61082-1:2015",
+                "IEC 60617 database"
+            ],
+            "note": "Document and symbol standards; they do not define a universal device-prefix list."
+        },
+        {
+            "id": "electronic_diagrams",
+            "name": "Electronic schematics",
+            "groups": [
+                "Project tags - electrical and electronic diagrams"
+            ],
+            "standards": [
+                "IEC 60617 database",
+                "NBN EN 61082-1:2015"
+            ],
+            "note": "Graphical symbols and document presentation; project tags remain local conventions."
+        },
+        {
+            "id": "machine",
+            "name": "Machine coding / machine safety",
+            "groups": [
+                "IEC 81346-2:2019 - selected two-letter subclass examples (not a complete code table)",
+                "Project tags - machinery and machine safety"
+            ],
+            "standards": [
+                "IEC 81346-2:2026",
+                "IEC 60204-1:2016 + AMD1:2021",
+                "ISO 12100:2010",
+                "ISO 13849-1:2023"
+            ],
+            "note": "Use IEC 81346 for reference designation; other listed standards address machine electrical safety and risk reduction, not prefix codes."
+        },
+        {
+            "id": "plc",
+            "name": "PLC / industrial automation",
+            "groups": [
+                "IEC 81346-2:2019 - selected two-letter subclass examples (not a complete code table)",
+                "IEC 81346-2:2019 - legacy class reference list (replaced by 2026 edition)",
+                "Project tags - PLC and industrial automation"
+            ],
+            "standards": [
+                "IEC 61131 series",
+                "IEC 81346-2:2026"
+            ],
+            "note": "PLC tags are project conventions; IEC 61131 is the programmable-controller standard series."
+        },
+        {
+            "id": "miva",
+            "name": "MIVA / social alarm / accessible toilet alarm",
+            "groups": [
+                "Project tags - MIVA / social and assistance alarm"
+            ],
+            "standards": [
+                "EN 50134 series"
+            ],
+            "note": "EN 50134 may apply where the system is a social alarm. Confirm exact Belgian adoption and application; MIVA is a project label, not a normative prefix."
+        },
+        {
+            "id": "aggression",
+            "name": "Aggression / duress / personal safety alarm",
+            "groups": [
+                "Project tags - aggression / duress / personal safety alarm",
+                "Project tags - intrusion and hold-up alarm"
+            ],
+            "standards": [
+                "NBN EN 50131 series",
+                "EN 50134 series"
+            ],
+            "note": "No single universal European prefix standard for aggression alarms. Select the applicable system standard from the actual risk/use case."
+        },
+        {
+            "id": "project",
+            "name": "Project-specific tags / legacy folder prefixes",
+            "groups": [
+                "Technical installations - practical equipment suggestions",
+                "User's earlier folder-prefix mapping",
+                "Belgian electrical installation coding - project conventions (not a standalone IEC code table)",
+                "user"
+            ],
+            "standards": [],
+            "note": "Non-normative project conventions and legacy folder mappings."
+        },
+        {
+            "id": "domotics",
+            "name": "Domotics / home and building automation",
+            "groups": [
+                "Building automation / domotics - protocol tags"
+            ],
+            "standards": [
+                "EN 50090",
+                "EN 50491",
+                "ISO/IEC 14543-3",
+                "EN ISO 16484"
+            ],
+            "note": "Home and building automation concepts and system-level project tags; codes are project identifiers, not IEC 81346 object-class codes."
+        },
+        {
+            "id": "knx",
+            "name": "KNX / EIB",
+            "groups": [
+                "KNX - protocol and media tags"
+            ],
+            "standards": [
+                "EN 50090",
+                "EN 13321-1",
+                "EN ISO 22510",
+                "ISO/IEC 14543-3-1 to -7"
+            ],
+            "note": "KNX protocol, media and engineering labels. KNX is an international and European standardised HBES protocol."
+        },
+        {
+            "id": "dali",
+            "name": "DALI / lighting control",
+            "groups": [
+                "Lighting control protocols - project tags"
+            ],
+            "standards": [
+                "IEC 62386"
+            ],
+            "note": "Digital lighting control protocol labels. DALI / DALI-2 / DT8 are protocol or certification-related labels, not IEC 81346 device classes."
+        },
+        {
+            "id": "bacs_protocols",
+            "name": "BACS / building communication protocols",
+            "groups": [
+                "Building and industrial communication protocols - project tags",
+                "Building automation / domotics - protocol tags"
+            ],
+            "standards": [
+                "EN ISO 16484-5",
+                "ISO 16484-5",
+                "EN 14908",
+                "ISO 14908",
+                "EN 13757"
+            ],
+            "note": "Building automation communication protocol labels including BACnet, Modbus, LonWorks and M-Bus. Verify the applicable edition in the national standards catalogue."
+        },
+        {
+            "id": "industrial_protocols",
+            "name": "Industrial communication / fieldbus",
+            "groups": [
+                "Building and industrial communication protocols - project tags",
+                "Serial / fieldbus / interface tags - project tags"
+            ],
+            "standards": [
+                "IEC 61158",
+                "IEC 61784",
+                "IEC 62541",
+                "IEC 61131-9",
+                "EN 50325"
+            ],
+            "note": "Industrial network and interface protocol labels. The protocol name is a project tag; the referenced standard defines protocol requirements."
+        },
+        {
+            "id": "iot_wireless",
+            "name": "IoT / wireless / smart-home protocols",
+            "groups": [
+                "Wireless / IoT / smart-home protocols - project tags"
+            ],
+            "standards": [
+                "IEEE 802.15.4",
+                "ISO/IEC 14543-3-10",
+                "OASIS MQTT"
+            ],
+            "note": "Wireless and IoT protocol labels. Some are standards-based; some are ecosystems or application protocols."
+        },
+        {
+            "id": "metering",
+            "name": "Metering / energy communication",
+            "groups": [
+                "Metering / energy / utility protocols - project tags"
+            ],
+            "standards": [
+                "IEC 62056",
+                "EN 13757",
+                "IEC 60870-5-101",
+                "IEC 60870-5-104",
+                "IEC 61970",
+                "IEC 61968"
+            ],
+            "note": "Metering, telecontrol and energy-management protocol labels."
+        }
+    ]
+}
